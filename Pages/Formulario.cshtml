@@ -1,0 +1,57 @@
+@page
+@model AppWebMoibe.Pages.FormularioModel
+@{
+    ViewData["Title"] = "Registro para participantes"; <!-- Título actualizado -->
+}
+
+<div class="container mt-5">
+    <!-- Título en azul -->
+    <h2 class="mb-4" style="color: #3366CC;">Registro para participantes</h2>
+
+    <form method="post" class="col-md-6">
+        <!-- Cédula -->
+        <div class="mb-3">
+            <label for="Cedula" class="form-label">Cédula:</label>
+            <input type="text" class="form-control" id="Cedula" name="Cedula" 
+                   pattern="[0-9]+" title="Solo números" required>
+        </div>
+
+        <!-- Nombre -->
+        <div class="mb-3">
+            <label for="Nombre" class="form-label">Nombre completo:</label>
+            <input type="text" class="form-control" id="Nombre" name="Nombre" 
+                   required>
+        </div>
+
+        <!-- Título -->
+        <div class="mb-3">
+            <label for="Titulo" class="form-label">Título profesional:</label>
+            <input type="text" class="form-control" id="Titulo" name="Titulo" 
+                   required>
+        </div>
+
+        <!-- Correo -->
+        <div class="mb-3">
+            <label for="Correo" class="form-label">Correo electrónico:</label>
+            <input type="email" class="form-control" id="Correo" name="Correo" 
+                   required>
+        </div>
+
+        <!-- Teléfono -->
+        <div class="mb-3">
+            <label for="Telefono" class="form-label">Teléfono:</label>
+            <input type="tel" class="form-control" id="Telefono" name="Telefono" 
+                   pattern="[0-9]{8,15}" title="Ej: 12345678" required>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+
+    <!-- Mensaje de confirmación -->
+    @if (!string.IsNullOrEmpty(Model.Mensaje))
+    {
+        <div class="mt-4 alert alert-success">
+            @Html.Raw(Model.Mensaje) <!-- Permite formato HTML en el mensaje -->
+        </div>
+    }
+</div>
