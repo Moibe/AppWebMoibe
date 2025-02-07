@@ -28,3 +28,4 @@ D:\DevOps\Devs\microsoft\wee\AppWebMoibe\obj\Debug\net8.0\refint\AppWebMoibe.dll
 D:\DevOps\Devs\microsoft\wee\AppWebMoibe\obj\Debug\net8.0\AppWebMoibe.pdb
 D:\DevOps\Devs\microsoft\wee\AppWebMoibe\obj\Debug\net8.0\AppWebMoibe.genruntimeconfig.cache
 D:\DevOps\Devs\microsoft\wee\AppWebMoibe\obj\Debug\net8.0\ref\AppWebMoibe.dll
+D:\DevOps\Devs\microsoft\wee\AppWebMoibe\obj\Debug\net8.0\AppWebMoibe.sourcelink.json

@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using System.ComponentModel.DataAnnotations; 
 
 namespace AppWebMoibe.Pages
 {
@@ -20,7 +21,14 @@ namespace AppWebMoibe.Pages
         [BindProperty]
         public string Telefono { get; set; } = string.Empty;
 
+        [BindProperty]
+        [Required(ErrorMessage = "Debes aceptar los términos y condiciones.")]
+        [Display(Name = "Acepto los términos")]
+        public bool AceptoTerminos { get; set; } 
+
         public string Mensaje { get; set; } = string.Empty;
+
+
 
         public void OnGet()
         {

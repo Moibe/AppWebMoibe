@@ -44,6 +44,15 @@
                    pattern="[0-9]{8,15}" title="Ej: 12345678" required>
         </div>
 
+        <div class="form-check mb-3">
+    <input class="form-check-input" type="checkbox" asp-for="AceptoTerminos" id="AceptoTerminos"> <!-- Sin "checked" -->
+    <label class="form-check-label" for="AceptoTerminos">
+        He leído y acepto el 
+        <a asp-page="/TerminosYPrivacidad" target="_blank">Aviso de privacidad/Términos y condiciones</a>.
+    </label>
+    <span asp-validation-for="AceptoTerminos" class="text-danger"></span>
+</div>
+
         <button type="submit" class="btn btn-primary">Enviar</button>
     </form>
 
