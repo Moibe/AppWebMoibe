@@ -1,11 +1,10 @@
 @page
 @model AppWebMoibe.Pages.FormularioModel
 @{
-    ViewData["Title"] = "Registro para participantes"; <!-- Título actualizado -->
+    ViewData["Title"] = "Registro para participantes";
 }
 
 <div class="container mt-5">
-    <!-- Título en azul -->
     <h2 class="mb-4" style="color: #3366CC;">Registro para participantes</h2>
 
     <form method="post" class="col-md-6">
@@ -45,13 +44,13 @@
         </div>
 
         <div class="form-check mb-3">
-    <input class="form-check-input" type="checkbox" asp-for="AceptoTerminos" id="AceptoTerminos"> <!-- Sin "checked" -->
-    <label class="form-check-label" for="AceptoTerminos">
-        He leído y acepto el 
-        <a asp-page="/TerminosYPrivacidad" target="_blank">Aviso de privacidad/Términos y condiciones</a>.
-    </label>
-    <span asp-validation-for="AceptoTerminos" class="text-danger"></span>
-</div>
+            <input class="form-check-input" type="checkbox" asp-for="AceptoTerminos" id="AceptoTerminos">
+            <label class="form-check-label" for="AceptoTerminos">
+                He leído y acepto el 
+                <a asp-page="/TerminosYPrivacidad" target="_blank">Aviso de privacidad/Términos y condiciones</a>.
+            </label>
+            <span asp-validation-for="AceptoTerminos" class="text-danger"></span>
+        </div>
 
         <button type="submit" class="btn btn-primary">Enviar</button>
     </form>
@@ -60,7 +59,39 @@
     @if (!string.IsNullOrEmpty(Model.Mensaje))
     {
         <div class="mt-4 alert alert-success">
-            @Html.Raw(Model.Mensaje) <!-- Permite formato HTML en el mensaje -->
+            @Html.Raw(Model.Mensaje)
         </div>
     }
 </div>
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- javascript para la cedula -->
+<script>
+    $(document).ready(function () {
+        $('#Cedula').on('input', function () {
+            var cedula = $(this).val();
+
+            // Solo hacer la solicitud si la cédula tiene 8 dígitos o más
+            if (cedula.length >= 8) {
+                $.ajax({
+                    url: 'http://localhost:5132/api/cedula/' + cedula, 
+                    method: 'GET',
+                    success: function (data) {
+                        if (data) {
+                            
+                            $('#Nombre').val(data.nombre + ' ' + data.paterno + ' ' + data.materno);
+                            $('#Titulo').val(data.titulo);
+                        } else {
+                            alert('Cédula no encontrada');
+                        }
+                    },
+                    error: function () {
+                        alert('Error al consultar la cédula');
+                    }
+                });
+            }
+        });
+    });
+</script>
