@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AppWebMoibe")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+699e3562bd51a5bd94ec4cb9bf5e6e3aeed4587f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+240209619519e476d516cff6c6554e04f70ccf0e")]
 [assembly: System.Reflection.AssemblyProductAttribute("AppWebMoibe")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AppWebMoibe")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

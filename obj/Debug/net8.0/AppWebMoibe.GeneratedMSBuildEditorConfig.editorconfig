@@ -9,47 +9,47 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AppWebMoibe
 build_property.RootNamespace = AppWebMoibe
-build_property.ProjectDir = D:\DevOps\Devs\microsoft\wee\AppWebMoibe\
+build_property.ProjectDir = D:\DevOps\Devs\microsoft\wee\appwebmoibe\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\DevOps\Devs\microsoft\wee\AppWebMoibe
+build_property.MSBuildProjectDirectory = D:\DevOps\Devs\microsoft\wee\appwebmoibe
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/DevOps/Devs/microsoft/wee/AppWebMoibe/Pages/Error.cshtml]
+[D:/DevOps/Devs/microsoft/wee/appwebmoibe/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/DevOps/Devs/microsoft/wee/AppWebMoibe/Pages/Formulario.cshtml]
+[D:/DevOps/Devs/microsoft/wee/appwebmoibe/Pages/Formulario.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9ybXVsYXJpby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/DevOps/Devs/microsoft/wee/AppWebMoibe/Pages/Index.cshtml]
+[D:/DevOps/Devs/microsoft/wee/appwebmoibe/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/DevOps/Devs/microsoft/wee/AppWebMoibe/Pages/Privacy.cshtml]
+[D:/DevOps/Devs/microsoft/wee/appwebmoibe/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/DevOps/Devs/microsoft/wee/AppWebMoibe/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[D:/DevOps/Devs/microsoft/wee/appwebmoibe/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/DevOps/Devs/microsoft/wee/AppWebMoibe/Pages/TerminosYPrivacidad.cshtml]
+[D:/DevOps/Devs/microsoft/wee/appwebmoibe/Pages/TerminosYPrivacidad.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVybWlub3NZUHJpdmFjaWRhZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/DevOps/Devs/microsoft/wee/AppWebMoibe/Pages/_ViewImports.cshtml]
+[D:/DevOps/Devs/microsoft/wee/appwebmoibe/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/DevOps/Devs/microsoft/wee/AppWebMoibe/Pages/_ViewStart.cshtml]
+[D:/DevOps/Devs/microsoft/wee/appwebmoibe/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/DevOps/Devs/microsoft/wee/AppWebMoibe/Pages/Shared/_Layout.cshtml]
+[D:/DevOps/Devs/microsoft/wee/appwebmoibe/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-xjtsepqac8

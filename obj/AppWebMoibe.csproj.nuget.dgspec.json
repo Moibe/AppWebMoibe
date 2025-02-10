@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DevOps\\Devs\\microsoft\\wee\\AppWebMoibe\\AppWebMoibe.csproj": {}
+    "D:\\DevOps\\Devs\\microsoft\\wee\\appwebmoibe\\AppWebMoibe.csproj": {}
   },
   "projects": {
-    "D:\\DevOps\\Devs\\microsoft\\wee\\AppWebMoibe\\AppWebMoibe.csproj": {
+    "D:\\DevOps\\Devs\\microsoft\\wee\\appwebmoibe\\AppWebMoibe.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DevOps\\Devs\\microsoft\\wee\\AppWebMoibe\\AppWebMoibe.csproj",
+        "projectUniqueName": "D:\\DevOps\\Devs\\microsoft\\wee\\appwebmoibe\\AppWebMoibe.csproj",
         "projectName": "AppWebMoibe",
-        "projectPath": "D:\\DevOps\\Devs\\microsoft\\wee\\AppWebMoibe\\AppWebMoibe.csproj",
+        "projectPath": "D:\\DevOps\\Devs\\microsoft\\wee\\appwebmoibe\\AppWebMoibe.csproj",
         "packagesPath": "C:\\Users\\moi_e\\.nuget\\packages\\",
-        "outputPath": "D:\\DevOps\\Devs\\microsoft\\wee\\AppWebMoibe\\obj\\",
+        "outputPath": "D:\\DevOps\\Devs\\microsoft\\wee\\appwebmoibe\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\moi_e\\AppData\\Roaming\\NuGet\\NuGet.Config",

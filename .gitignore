@@ -1,0 +1,25 @@
+# Carpetas de compilación y dependencias
+bin/
+obj/
+
+# Archivos de configuración local
+appsettings.Development.json
+*.user
+
+# Carpeta de paquetes NuGet
+.nuget/
+
+# Archivos de IDE y herramientas
+.vs/
+.vscode/
+*.suo
+
+# Archivos de logs y temporales
+logs/
+*.log
+
+# Archivos de entorno
+.env
+
+# Configuraciones de inicio
+launchSettings.json
