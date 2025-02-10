@@ -55,7 +55,7 @@
         <button type="submit" class="btn btn-primary">Enviar</button>
     </form>
 
-    <!-- Mensaje de confirmación -->
+    <!-- confirmo  -->
     @if (!string.IsNullOrEmpty(Model.Mensaje))
     {
         <div class="mt-4 alert alert-success">
@@ -73,7 +73,7 @@
         $('#Cedula').on('input', function () {
             var cedula = $(this).val();
 
-            // Solo hacer la solicitud si la cédula tiene 8 dígitos o más
+            // Verificar q tenga localhost 8 digitos de la cedula
             if (cedula.length >= 8) {
                 $.ajax({
                     url: 'http://localhost:5132/api/cedula/' + cedula, 
