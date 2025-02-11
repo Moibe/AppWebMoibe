@@ -1,6 +1,6 @@
 var builder = WebApplication.CreateBuilder(args);
 
-
+// Add services to the container.
 builder.Services.AddRazorPages();
 
 var app = builder.Build();
@@ -21,5 +21,8 @@ app.UseRouting();
 app.UseAuthorization();
 
 app.MapRazorPages();
+
+// Configura la ruta predeterminada para cargar Formulario.cshtml
+app.MapFallbackToPage("/Formulario");
 
 app.Run();
